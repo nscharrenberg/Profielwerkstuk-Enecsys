@@ -1,10 +1,10 @@
 <?php
-$host = "localhost";															// MYSQL-SERVER HOST, dit is meestal "localhost"
-$gebruiker = "root";															// MYSQL-SERVER GEBRUIKER.
-$wachtwoord = "raspberry";														// MYSQL-SERVER WACHTWOORD, dit is het wachtwoord die je hebt aangemaakt.
-$database = "enecsys";															// MYSQL-SERVER DATABASE, dit is de database die je in phpmyadmin hebt aangemaakt.
+$host = "HOST";															// MYSQL-SERVER HOST, dit is meestal "localhost"
+$gebruiker = "USER";															// MYSQL-SERVER GEBRUIKER.
+$wachtwoord = "PASSWORD";														// MYSQL-SERVER WACHTWOORD, dit is het wachtwoord die je hebt aangemaakt.
+$database = "DTAABASE";															// MYSQL-SERVER DATABASE, dit is de database die je in phpmyadmin hebt aangemaakt.
 
-$pvoutput = "http://pvoutput.org/intraday.jsp?id=45139&sid=41722";				// PVOUTPUT url, zie "Your Outputs" op de pvoutput.org website, en plaats die link hierin.
+$pvoutput = "PVOUTPUT_URL";				// PVOUTPUT url, zie "Your Outputs" op de pvoutput.org website, en plaats die link hierin.
 $avatar = "assets/images/users/avatar.jpg";										// Plaats een link van een afbeelding of een path van een afbeelding voor je avatar.
 $sitename = "Enecsys Data Monitor";												// De website naam, dit kan je naar eigen voorkeur zetten. De website naam word dan veranderd.
 

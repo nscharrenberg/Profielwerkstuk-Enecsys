@@ -1,8 +1,8 @@
 <?php
 define('VERBOSE', 0);        // 0: be silent, except for errors; 1: be verbose
 define('IDCOUNT', 3);
-define('APIKEY', '8318d1a69a2b6d02832b5569462757e55aa7fa3f');
-define('SYSTEMID', '41722');
+define('APIKEY', 'YOUR API KEY');
+define('SYSTEMID', 'YOUR SYSTEM ID');
 
 define('LIFETIME', 1);       // see README.md
 define('MODE', 'AGGREGATE'); // 'AGGREGATE' or 'SPLIT'
@@ -33,9 +33,10 @@ $ignored = array(
 
 
 // Optional MySQL defs, uncomment to enable MySQL inserts, see README.md
-define('MYSQLHOST', 'localhost');
-define('MYSQLUSER', 'root');
-define('MYSQLPASSWORD', 'raspberry');
-define('MYSQLDB', 'enecsys');
+// The info below has to be the same as the info in our Enecsys Data monitor!
+define('MYSQLHOST', 'HOST');
+define('MYSQLUSER', 'USER');
+define('MYSQLPASSWORD', 'PASSWORD');
+define('MYSQLDB', 'DATABASE');           
 define('MYSQLPORT', '3306');
 ?>
